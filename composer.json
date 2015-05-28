@@ -1,0 +1,18 @@
+{
+    "name": "fobia/collection",
+    "type": "library",
+    "description": "PHP Collection",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": { "Fobia\\": "src/Fobia"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
